@@ -16,17 +16,17 @@ Information Retrieval and Machine Learning tools for extracting meaning and insi
 Mostly Harmless
 ===============
 
-.. image:: https://secure.travis-ci.org/collective/collective.aylien.png?branch=master
+.. image:: https://secure.travis-ci.org/simplesconsultoria/collective.aylien.png?branch=master
     :alt: Travis CI badge
-    :target: http://travis-ci.org/collective/collective.aylien
+    :target: http://travis-ci.org/simplesconsultoria/collective.aylien
 
-.. image:: https://coveralls.io/repos/collective/collective.aylien/badge.png?branch=master
+.. image:: https://coveralls.io/repos/simplesconsultoria/collective.aylien/badge.png?branch=master
     :alt: Coveralls badge
-    :target: https://coveralls.io/r/collective/collective.aylien
+    :target: https://coveralls.io/r/simplesconsultoria/collective.aylien
 
 Got an idea? Found a bug? Let us know by `opening a support ticket`_.
 
-.. _`opening a support ticket`: https://github.com/collective/collective.aylien/issues
+.. _`opening a support ticket`: https://github.com/simplesconsultoria/collective.aylien/issues
 
 Don't Panic
 -----------
