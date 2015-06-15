@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="collective.aylien">
+
+  <five:registerPackage package="." />
+
+  <permission
+      id="collective.aylien.AddExample"
+      title="collective.aylien: Add Example"
+      />
+
+  <include file="profiles.zcml" />
+
+  <browser:page
+      name="aylien-settings"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".controlpanel.PackageSettingsControlPanel"
+      permission="cmf.ManagePortal"
+      />
+
+  <browser:resourceDirectory
+      name="collective.aylien"
+      directory="static"
+      layer="collective.aylien.interfaces.IBrowserLayer"
+      />
+
+</configure>
